@@ -1,7 +1,12 @@
 .navbar-xultan {
   background: #122b35;
-  padding-top: 10px;
+  padding-top: 0px;
 
+  .navbar-brand {
+    img {
+      max-height: 100px;
+    }
+  }
   .navbar-nav {
     margin-right: 30px;
   }
