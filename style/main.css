@@ -10822,7 +10822,11 @@ a.text-dark:hover, a.text-dark:focus {
 
 .navbar-xultan {
   background: #122b35;
-  padding-top: 10px;
+  padding-top: 0px;
+}
+
+.navbar-xultan .navbar-brand img {
+  max-height: 100px;
 }
 
 .navbar-xultan .navbar-nav {
@@ -10889,12 +10893,13 @@ body {
 }
 
 .page-home {
-  background-color: #122b35;
   padding-top: 40px;
 }
 
 .page-home .section-hero {
+  background-color: #122b35;
   padding-bottom: 70px;
+  margin-top: -74px;
 }
 
 .page-home .section-hero h2 {
