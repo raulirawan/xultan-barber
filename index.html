@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="home">
   <head>
     <meta charset="utf-8" />
     <meta
@@ -42,19 +42,22 @@
         <div class="collapse navbar-collapse" id="navbarXultan">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link page-scroll" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Service</a>
+              <a class="nav-link page-scroll" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
+              <a class="nav-link page-scroll" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link page-scroll" href="#price">Price</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link page-scroll" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link btn btn-login px-4 py-2" href="#">Log In</a>
@@ -97,7 +100,7 @@
         </div>
       </section>
 
-      <section class="section-about">
+      <section class="section-about" id="about">
         <div class="container">
           <div class="row">
             <div
@@ -137,7 +140,7 @@
         </div>
       </section>
 
-      <section class="section-services">
+      <section class="section-services" id="services">
         <div class="container">
           <div class="row justify-content-center">
             <div
@@ -202,7 +205,7 @@
         </div>
       </section>
 
-      <section class="section-pricelist">
+      <section class="section-pricelist" id="price">
         <div class="container">
           <div class="row">
             <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
@@ -223,7 +226,7 @@
         </div>
       </section>
 
-      <section class="section-gallery">
+      <section class="section-gallery" id="gallery">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
@@ -384,7 +387,7 @@
         </div>
       </section>
 
-      <section class="contact-us">
+      <section class="contact-us" id="contact">
         <div class="container">
           <div class="row">
             <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
@@ -584,6 +587,7 @@
     <script src="vendor/venobox/venobox.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="vendor/scrollTop/material-scrolltop.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script> -->
     <script src="scripts/main.js"></script>
     <script>
       AOS.init();
