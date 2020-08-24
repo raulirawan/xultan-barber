@@ -11254,4 +11254,94 @@ footer .copyright p {
   top: 8px;
   left: 8px;
 }
+
+.page-auth {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.page-auth .btn-auth-login {
+  color: #212529;
+  background-color: #ffbb00;
+  border-color: transparent;
+  color: #fff;
+}
+
+.page-auth .btn-auth-login:hover {
+  color: #212529;
+  background-color: #d99f00;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.page-auth .btn-auth-login:focus, .page-auth .btn-auth-login.focus {
+  color: #212529;
+  background-color: #d99f00;
+  border-color: rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+}
+
+.page-auth .btn-auth-login.disabled, .page-auth .btn-auth-login:disabled {
+  color: #212529;
+  background-color: #ffbb00;
+  border-color: transparent;
+}
+
+.page-auth .btn-auth-login:not(:disabled):not(.disabled):active, .page-auth .btn-auth-login:not(:disabled):not(.disabled).active,
+.show > .page-auth .btn-auth-login.dropdown-toggle {
+  color: #fff;
+  background-color: #cc9600;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.page-auth .btn-auth-login:not(:disabled):not(.disabled):active:focus, .page-auth .btn-auth-login:not(:disabled):not(.disabled).active:focus,
+.show > .page-auth .btn-auth-login.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+}
+
+.page-auth .btn-auth-register {
+  color: #212529;
+  background-color: #f3f3f3;
+  border-color: transparent;
+  color: #bbb;
+}
+
+.page-auth .btn-auth-register:hover {
+  color: #212529;
+  background-color: #e0e0e0;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.page-auth .btn-auth-register:focus, .page-auth .btn-auth-register.focus {
+  color: #212529;
+  background-color: #e0e0e0;
+  border-color: rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+}
+
+.page-auth .btn-auth-register.disabled, .page-auth .btn-auth-register:disabled {
+  color: #212529;
+  background-color: #f3f3f3;
+  border-color: transparent;
+}
+
+.page-auth .btn-auth-register:not(:disabled):not(.disabled):active, .page-auth .btn-auth-register:not(:disabled):not(.disabled).active,
+.show > .page-auth .btn-auth-register.dropdown-toggle {
+  color: #212529;
+  background-color: #dadada;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.page-auth .btn-auth-register:not(:disabled):not(.disabled):active:focus, .page-auth .btn-auth-register:not(:disabled):not(.disabled).active:focus,
+.show > .page-auth .btn-auth-register.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+}
+
+.page-auth .form-control {
+  background: #f3f3f3;
+  border-radius: 8px;
+}
 /*# sourceMappingURL=main.css.map */
